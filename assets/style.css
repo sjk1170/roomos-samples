@@ -103,8 +103,8 @@ button {
 }
 
 .Tech .avatar { background-image: url('./images/avatar1.jpg'); }
-.Help Desk .avatar { background-image: url('./images/avatar2.png'); }
-.Tech Support .avatar { background-image: url('./images/avatar3.png'); }
+.HelpDesk .avatar { background-image: url('./images/avatar2.png'); }
+.TechSupport .avatar { background-image: url('./images/avatar3.png'); }
 
 .back {
   position: absolute;
