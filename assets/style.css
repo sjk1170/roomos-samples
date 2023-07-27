@@ -102,9 +102,9 @@ button {
   background-size: cover;
 }
 
-.Tech .avatar { background-image: url('./images/avatar1.jpg'); }
-.HelpDesk .avatar { background-image: url('./images/avatar2.png'); }
-.TechSupport .avatar { background-image: url('./images/avatar3.png'); }
+.Tech Support .avatar { background-image: url('./images/avatar3.png'); }
+.Help Desk .avatar { background-image: url('./images/avatar2.png'); }
+.Scott .avatar { background-image: url('./images/avatar1.jpg'); }
 
 .back {
   position: absolute;
