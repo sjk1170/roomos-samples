@@ -102,8 +102,8 @@ button {
   background-size: cover;
 }
 
-.Tech Support .avatar { background-image: url('./images/avatar3.png'); }
-.Help Desk .avatar { background-image: url('./images/avatar2.png'); }
+.Tech .avatar { background-image: url('./images/avatar3.jpg'); }
+.Help .avatar { background-image: url('./images/avatar2.jpg'); }
 .Scott .avatar { background-image: url('./images/avatar1.jpg'); }
 
 .back {
