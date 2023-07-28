@@ -4,7 +4,7 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: '<a href="sip:scott.kern@umb.com">Call Scott</a>',
+    dialNumber: 'scott.kern@umb.com',
     services: [],
 
     init() {
