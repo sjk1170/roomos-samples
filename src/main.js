@@ -4,7 +4,7 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: 'scott.kern@umb.com',
+    dialNumber: 'UMBMini001@umb.com',
     services: [],
 
     init() {
