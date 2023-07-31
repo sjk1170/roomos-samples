@@ -4,7 +4,9 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: 'UMBMini001@umb.com',
+    dialNumber1: 'UMBMini001@umb.com',
+    dialNumber2: 'Helpdesk@umb.com',
+    dialNumber3: 'scott.kern@umb.com',
     services: [],
 
     init() {
@@ -13,9 +15,9 @@ function setup() {
         this.dialNumber = params.get('number');
       }
       this.services = [
-        { url: this.dialNumber, name: 'Tech Support' },
-        { url: this.dialNumber, name: 'Help Desk' },
-        { url: this.dialNumber, name: 'Scott' },
+        { url: this.dialNumber1, name: 'Tech Support' },
+        { url: this.dialNumber2, name: 'Help Desk' },
+        { url: this.dialNumber3, name: 'Scott' },
       ];
     },
     get page() {
