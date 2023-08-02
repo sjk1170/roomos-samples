@@ -5,7 +5,7 @@ function setup() {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
     dialNumber1: 'UMBMini001@umb.com',
-    dialNumber2: '8166916005@umb.com',
+    dialNumber2: '1002201@umb.com',
     dialNumber3: 'scott.kern@umb.com',
     services: [],
 
