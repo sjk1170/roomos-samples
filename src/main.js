@@ -6,7 +6,6 @@ function setup() {
     currentLanguage: 'english',
     dialNumber1: '1002201@umb.com',
     dialNumber2: '8605890@umb.com',
-    dialNumber3: 'scott.kern@umb.com',
     services: [],
 
     init() {
@@ -17,7 +16,6 @@ function setup() {
       this.services = [
         { url: this.dialNumber1, name: 'Tech Support' },
         { url: this.dialNumber2, name: 'Help Desk' },
-        { url: this.dialNumber3, name: 'Scott' },
       ];
     },
     get page() {
