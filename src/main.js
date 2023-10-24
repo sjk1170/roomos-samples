@@ -5,7 +5,7 @@ function setup() {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
     dialNumber1: '1002201@umb.com',
-    dialNumber2: '8607777@umb.com',
+    dialNumber2: '8168607777@umb.com',
     services: [],
 
     init() {
