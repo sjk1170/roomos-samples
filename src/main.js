@@ -4,7 +4,7 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber1: '1002201',
+    dialNumber1: '8166916511',
     dialNumber2: '8607777',
     services: [],
 
