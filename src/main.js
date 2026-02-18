@@ -1,10 +1,5 @@
-import xapi from 'xapi';
 
-async function setupKiosk() {
-
-  await xapi.Config.UserInterface.Kiosk.Mode.set('On');
-  await xapi.Config.UserInterface.Kiosk.Keypad.set('On');
-
+function setup() {
 
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
@@ -20,7 +15,7 @@ async function setupKiosk() {
       }
       this.services = [
         { url: this.dialNumber1, name: 'Tech Support' },
-        { url: this.dialNumber2, name: 'Help Desk' }
+        { url: this.dialNumber2, name: 'Help Desk' },
       ];
     },
     get page() {
@@ -36,9 +31,9 @@ async function setupKiosk() {
     },
     set language(current) {
       this.currentLanguage = current;
-    }
+    },
   });
 
 }
 
-document.addEventListener('alpine:init', setupKiosk);
+document.addEventListener('alpine:init', setup);
