@@ -5,7 +5,7 @@ function setup() {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
     dialNumber1: '8168608855',
-    dialNumber2: '8607777',
+    dialNumber2: '8168607777',
     services: [],
 
     init() {
